@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day_Fourth"
+    android:id="@+id/main"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bgcolor"
+        android:layout_margin="25dp"
+        >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="35dp"
+            android:id="@+id/menubar"
+            android:layout_height="35dp"
+            android:background="@drawable/baseline_menu_24" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="275dp"
+            android:background="@drawable/baseline_search_24" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delicious Food"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/burgerBtn"
+            android:layout_width="75dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="50dp"
+            app:cardBackgroundColor="@color/cardbg"
+            > <!-- Use the glow drawable -->
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/burge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burger"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="75dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/pizzaBtn"
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="@color/cardbg"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="75dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sandwichBtn"
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="@color/cardbg"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sandwich" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sandwich"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="75dp"
+            android:layout_height="160dp"
+            android:id="@+id/fruitsBtn"
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="@color/cardbg"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/strawberry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruts"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:id="@+id/fragmentContenir"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

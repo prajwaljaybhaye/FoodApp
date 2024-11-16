@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Fruit"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="375dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/royalBurgerBtn"
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f1"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="green salads"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.75 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:id="@+id/royalB"
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f2"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="vegetable salads"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.69 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="@color/bgcolor">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f3"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="35dp"
+                        android:text="salads of pasta"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="Rs.115 /-"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/pl" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="@color/bgcolor">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f4"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="35dp"
+                        android:text="legumes Salads"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="Rs.125 /-"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/pl" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f5"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Meet Salad"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.143 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f6"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chiken Salad"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.111 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f7"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fruits Salad"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.55 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="145dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="@color/bgcolor"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="130dp"
+                        android:src="@drawable/f8"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mix Vegetable Salad"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spicy withgarlic"
+                        android:textColor="@color/grywhite"
+                        android:textSize="10sp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs.25 /-"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="31dp"
+                        android:src="@drawable/pl"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
